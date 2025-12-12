@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JEONHANBIT PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body data-section="hero">
+  <nav class="indicator">
+    <button class="indicator-btn active" data-target="hero">
+      <span class="dot"></span><span class="label">INTRO</span>
+    </button>
+    <button class="indicator-btn" data-target="skill">
+      <span class="dot"></span><span class="label">SKILL</span>
+    </button>
+    <button class="indicator-btn" data-target="career">
+      <span class="dot"></span><span class="label">CAREER</span>
+    </button>
+    <button class="indicator-btn" data-target="award">
+      <span class="dot"></span><span class="label">AWARD</span>
+    </button>
+  </nav>
+
+  <main>
+    <section id="hero" class="snap-section" data-section-id="hero">
+      <div class="panel panel-hero">
+        <div class="hero-inner reveal" data-anim="fade-up">
+          <p class="hero-tag">FRONTEND DEVELOPER · PORTFOLIO</p>
+          <h1 class="hero-title">
+            JEON HANBIT<br />
+            PORTFOLIO
+          </h1>
+          <p class="hero-sub">
+            안녕하세요!<br />
+            신입 Frontend 개발자 전한빛입니다.
+          </p>
+          <div class="hero-meta">
+            <span class="hero-pill">HTML · CSS · JavaScript</span>
+            <span class="hero-pill">C</span>
+            <span class="hero-pill">Unity(C#)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="snap-section" data-section-id="skill">
+      <div class="panel">
+        <div class="section-inner reveal" data-anim="fade-up">
+          <h2 class="section-title">MY SKILL</h2>
+          <p class="skill-text">
+            웹 프론트엔드, C/C#/Python 프로그래밍, 협업 도구, AI 도구까지<br>
+            프로젝트를 스스로 기획·구현하고 팀과 함께 완성해 나갑니다.
+          </p>
+
+          <div class="skills-wrap">
+            <div class="skills-tabs">
+              <button class="skills-tab is-active" data-skill="web">웹 · 프론트엔드</button>
+              <button class="skills-tab" data-skill="lang">C · C# · Python</button>
+              <button class="skills-tab" data-skill="collab">협업 도구</button>
+              <button class="skills-tab" data-skill="AI">AI · 툴 활용</button>
+            </div>
+
+            <div class="skills-grid">
+              <button class="skill-icon" data-skill-group="web">
+                <img src="images/icons/html-5.png" alt="HTML" />
+                <span>HTML</span>
+              </button>
+              <button class="skill-icon" data-skill-group="web">
+                <img src="images/icons/css-3.png" alt="CSS" />
+                <span>CSS</span>
+              </button>
+              <button class="skill-icon" data-skill-group="web">
+                <img src="images/icons/free-icon-js-5968292.png" alt="JavaScript" />
+                <span>JavaScript</span>
+              </button>
+              <button class="skill-icon" data-skill-group="lang">
+                <img src="images/icons/C.jpg" alt="C" />
+                <span>C</span>
+              </button>
+              <button class="skill-icon" data-skill-group="lang">
+                <img src="images/icons/Csharp.jpg" alt="C#" />
+                <span>C#</span>
+              </button>
+              <button class="skill-icon" data-skill-group="lang">
+                <img src="images/icons/python.png" alt="Python" />
+                <span>Python</span>
+              </button>
+
+              <button class="skill-icon" data-skill-group="collab">
+                <img src="images/icons/padlet.png" alt="Padlet" />
+                <span>Padlet</span>
+              </button>
+
+              <button class="skill-icon" data-skill-group="AI">
+                <img src="images/icons/Unity.jpg" alt="Unity" />
+                <span>Unity</span>
+              </button>
+              <button class="skill-icon" data-skill-group="AI">
+                <img src="images/icons/chatgpt.png" alt="AI" />
+                <span>ChatGPT</span>
+              </button>
+              <button class="skill-icon" data-skill-group="AI">
+                <img src="images/icons/claude.jpg" alt="Excel" />
+                <span>Claude</span>
+              </button>
+              <button class="skill-icon" data-skill-group="AI">
+                <img src="images/icons/excel.png" alt="Excel" />
+                <span>Excel</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="career" class="snap-section" data-section-id="career">
+      <div class="panel panel-career">
+        <div class="bg-circle circle-a" data-parallax-speed="0.25"></div>
+        <div class="bg-circle circle-b" data-parallax-speed="0.18"></div>
+        <div class="bg-circle circle-c" data-parallax-speed="0.22"></div>
+        <div class="bg-circle circle-d" data-parallax-speed="0.16"></div>
+        <div class="section-inner reveal" data-anim="fade-up">
+          <h2 class="section-label">CAREER</h2>
+          <div class="career-slider">
+            <button class="career-nav prev" aria-label="이전 경력">‹</button>
+            <div class="career-track">
+              <article class="career-card">
+                <div class="card">
+                  <div class="career-grid">
+                    <div class="career-text">
+                      <h3 class="career-title">Unity 게임 개발</h3>
+                      <p>
+                        캐릭터 이동, 충돌 처리, UI 연동 등 게임 요소를 직접 구현하며<br>
+                        Unity(C#) 기반 게임 프로젝트를 완성했습니다.
+                      </p>
+                    </div>
+                    <div class="career-image">
+                      <video src="./videos/Shooting.mp4" autoplay muted loop playsinline></video>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="career-card">
+                <div class="card">
+                  <div class="career-grid">
+                    <div class="career-text">
+                      <h3 class="career-title">비즈니스프로그래밍</h3>
+                      <p id="career-lowertitle">(강원특별자치도 상업경진대회)</p>
+                      <img src="./images/Number_6_1.png" id="career_Number"></img>
+                      <div class = "career_list">
+                        <p class="solution-title">해결 방안 모색</p>
+                        <ul class="solution-list">
+                          <li>N × N 구조 → 2차원 배열 사용</li>
+                          <li>이동 제한(오른쪽, 아래) → 경로 탐색 문제</li>
+                          <li>최댓값 계산 → 모든 경우의 수 확인</li>
+                          <li>구현 방법 → 재귀 함수</li>
+                          <li>초기 문제점 → 전역 변수 사용으로 값 관리 오류</li>
+                          <li>해결 방법 → 누적 합을 매개변수로 전달</li>
+                          <li>결과 → 각 경로 독립적 계산</li>
+                          <li>최종 목표 → 최댓값 정확히 계산</li>
+                        </Ul>
+                      </div>
+                    </div>
+                    <div class="career-image">
+                      
+                      <img src="./images/answer.png" id="career_answer"></img>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="career-card career-wide">
+                <div class="card">
+                  <div class="career-grid career-grid-vertical">
+                    <div class="career-text">
+                      <h3 class="career-title">웹 프로젝트 팀장</h3>
+                      <p>
+                        기획·디자인·프론트엔드 개발을 통합 관리하며
+                        팀원과 협업해 지역의 전통 시장을 소개하는 프로젝트를 구축했습니다.
+                      </p>
+                    </div>
+
+                    <div class="career-image">
+                      <img src="./images/5day_Main.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <button class="career-nav next" aria-label="다음 경력">›</button>
+          </div>
+
+          <div class="career-dots">
+            <button class="career-dot active" data-index="0"></button>
+            <button class="career-dot" data-index="1"></button>
+            <button class="career-dot" data-index="2"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="award" class="snap-section" data-section-id="award">
+      <div class="panel panel-award">
+        <div class="bg-circle circle-e" data-parallax-speed="0.2"></div>
+        <div class="bg-circle circle-f" data-parallax-speed="0.14"></div>
+
+        <div class="section-inner award-layout reveal" data-anim="zoom">
+          <div class="award-left">
+            <h2 class="section-title">AWARD</h2>
+
+            <div class="award-wheel" id="awardWheel">
+              <div class="wheel-item">2025 전국 기능경기대회</div>
+              <div class="wheel-item">2025 지방 기능경기대회</div>
+              <div class="wheel-item">2025 지장 기능경기대회(표창장)</div>
+              <div class="wheel-item">2024 전국 기능경기대회</div>
+              <div class="wheel-item">2024 지방 기능경기대회</div>
+              <div class="wheel-item">2024 전국 기능경기대회(후원상)</div>
+              <div class="wheel-item">2025 지방 상업경진대회</div>
+              <div class="wheel-item">2025 교과우수상 3학년 1학기</div>
+              <div class="wheel-item">2024 교과우수상 2학년 2학기</div>
+              <div class="wheel-item">2024 교과우수상 2학년 1학기</div>
+              <div class="wheel-item">2023 교과우수상 1학년 2학기</div>
+              <div class="wheel-item">2023 교과우수상 1학년 1학기</div>
+              <div class="wheel-item">2023 1학년 모범학생 표창</div>
+            </div>
+
+            <p class="award-hint">
+              휠 영역에서 마우스 휠을 움직이거나 드래그하면 상장이 회전하며 선택됩니다.
+            </p>
+          </div>
+
+          <div class="award-photo">
+            <div class="award-main">
+              <img id="awardImage" src="images/award01.png" alt="전국기능경기대회 게임개발 장려상" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
